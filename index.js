@@ -6,12 +6,6 @@ const app = express();
 const port = 3000;
 const API_URL = "https://secrets-api.appbrewery.com";
 
-// HINTs: Use the axios documentation as well as the video lesson to help you.
-// https://axios-http.com/docs/post_example
-// Use the Secrets API documentation to figure out what each route expects and how to work with it.
-// https://secrets-api.appbrewery.com/
-
-//TODO 1: Add your own bearer token from the previous lesson.
 const yourBearerToken = "e331d07a-e08a-48a1-a4c3-46ee5c2f69ed";
 const config = {
   headers: { Authorization: `Bearer ${yourBearerToken}` },
